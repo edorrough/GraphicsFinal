@@ -1,0 +1,26 @@
+HW3: Textures and Lighting
+Evan Dorrough
+
+Based on examples 15 and 13 taken from Willem A. (Vlakkies) Schreuder
+CSCI4229 Summer 2020
+
+Demonstrates using lighting and textures to create a scene consisting of solid objects that can be viewed in three dimensions under user control. The light should move and be contollable, and the textures add realism to the scene.
+
+There are three lighting modes, and the project starts out illuminated by a yellow street light. This light is controllable with key bindings. You can switch the light mode through to "floating" or to "off" with the L key. The floating light can be moved and dimmed to demonstrate my project's lighting and texturing.
+
+Key bindings
+  l          Switch through lighting choices (floating, streetlight, none)
+  m          Toggles texture mode modulate/replace
+  a/A        decrease/increase ambient light
+  d/D        decrease/increase diffuse light
+  s/S        decrease/increase specular light
+  e/E        decrease/increase emitted light
+  n/N        Decrease/increase shininess
+  []         Lower/rise light
+  x          Toggle axes
+  arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
+
+APPROX time spent on the project: 10 hours, though I could have easily spent more. Most annoying about the project was the struggle to get gluCylinder and gluSphere objects to have functioning normals, though getting them textured was a breeze!
